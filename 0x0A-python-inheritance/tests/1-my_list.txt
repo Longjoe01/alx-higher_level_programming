@@ -1,5 +1,8 @@
 
-importing the class from the module:
+0t.txt module
+====================
+
+Importing the class from the module:
 >>> MyList = __import__("1-my_list").MyList
 
 Checking for module docstring:
@@ -18,7 +21,6 @@ Checking for method docstring
         True
 
 Checking given test case
-
 >>> my_list = MyList()
 
 >>> my_list.append(1)
@@ -41,7 +43,6 @@ Checking given test case
 [1, 4, 2, 3, 5]
 
 Checking empty object
-
 >>> obj1 = MyList()
 
 >>> print(obj1)
@@ -49,8 +50,6 @@ Checking empty object
 
 >>> obj1.print_sorted()
 []
-
-
 
 Checking negative values
 >>> obj2 = MyList()
@@ -70,16 +69,16 @@ Checking negative values
 [-233, -9, -1, 0]
 
 Checking NULL object
-
 >>> obj3 = MyList()
 
 >>> obj3.append(NULL)
 Traceback (most recent call last):
     ...
-
 NameError: name 'NULL' is not defined
+
 >>> print(obj3)
 []
+
 
 >>> obj3.print_sorted()
 []
@@ -90,8 +89,8 @@ Checking NaN object
 >>> obj4.append(NaN)
 Traceback (most recent call last):
     ...
-
 NameError: name 'NaN' is not defined
+
 >>> print(obj4)
 []
 
